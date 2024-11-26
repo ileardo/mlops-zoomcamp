@@ -10,3 +10,5 @@
 
 
 ## Module 2: Experiment tracking and model management
+* 2.1 Experiment tracking intro ([slides](https://drive.google.com/file/d/1YtkAtOQS3wvY7yts_nosVlXrLQBq5q37/view))
+
