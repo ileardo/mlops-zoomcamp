@@ -18,4 +18,4 @@
 
 * 2.4 Model management
 
-* 2.5 Model registry -> DONE: theoretical section, TODO: notebook section
+* 2.5 Model registry 
