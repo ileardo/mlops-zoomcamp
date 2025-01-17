@@ -20,4 +20,4 @@
 
 * 2.5 Model registry 
 
-* 2.6 MLflow in practice (DONE: Scenario 1, TODO: Scenarios 2 and 3)
+* 2.6 MLflow in practice (DONE: Scenarios 1 and 2, TODO: Scenario 3)
