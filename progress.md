@@ -19,3 +19,5 @@
 * 2.4 Model management
 
 * 2.5 Model registry 
+
+* 2.6 MLflow in practice (DONE: Scenario 1, TODO: Scenarios 2 and 3)
