@@ -21,3 +21,8 @@
 * 2.5 Model registry 
 
 * 2.6 MLflow in practice 
+
+* 2.7 MLflow: benefits, limitations and alternatives
+
+## Module 3: Orchestration
+Repository for module 3: [github.com/ileardo/mlops-zoomcamp-mage](https://github.com/ileardo/mlops-zoomcamp-mage)
