@@ -1,5 +1,6 @@
 UI without backend store
     mlflow ui
+    python -m mlflow ui
 
 UI with backend store
     mlflow ui --backend-store-uri sqlite:///mlflow.db

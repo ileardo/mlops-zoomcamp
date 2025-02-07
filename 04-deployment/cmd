@@ -1,0 +1,12 @@
+Package version
+    pip freeze | grep package_name
+
+Create pipenv isolated from conda environment
+    pipenv install package1==version package2==version --python=version
+    pipenv install package1==version package2==version --python==path/to/python
+
+Enter pipenv
+    pipenv shell
+
+Change prompt in shell
+    PS1="> "
