@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/04-deployment/02_web_service_mlflow/mlruns/450956037497916712/a3dd588b6c5946bfaf80d7faef6dab0e/artifacts
+end_time: 1740069408235
+entry_point_name: ''
+experiment_id: '450956037497916712'
+lifecycle_stage: active
+run_id: a3dd588b6c5946bfaf80d7faef6dab0e
+run_name: exultant-vole-574
+run_uuid: a3dd588b6c5946bfaf80d7faef6dab0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740069406653
+status: 3
+tags: []
+user_id: codespace

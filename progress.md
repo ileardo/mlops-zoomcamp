@@ -30,3 +30,5 @@ Repository for module 3: [github.com/ileardo/mlops-zoomcamp-mage](https://github
 * 4.1 Three ways of deploying a model
 
 * 4.2 Web-services: Deploying models with Flask and Docker
+
+* 4.3 Web-services: Getting the models from the model registry

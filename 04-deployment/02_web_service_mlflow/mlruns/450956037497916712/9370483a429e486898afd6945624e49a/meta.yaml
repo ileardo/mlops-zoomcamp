@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/04-deployment/02_web_service_mlflow/mlruns/450956037497916712/9370483a429e486898afd6945624e49a/artifacts
+end_time: 1740069415860
+entry_point_name: ''
+experiment_id: '450956037497916712'
+lifecycle_stage: active
+run_id: 9370483a429e486898afd6945624e49a
+run_name: debonair-shrew-810
+run_uuid: 9370483a429e486898afd6945624e49a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740069408492
+status: 4
+tags: []
+user_id: codespace
