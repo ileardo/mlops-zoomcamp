@@ -51,3 +51,6 @@ e.g.
     ```
     docker run -it --rm -p 9696:9696 taxi-ride-duration-prediction:v1
     ```
+
+### Convert jupyter to script
+    jupyter nbconvert --to script notebook_name.ipynb

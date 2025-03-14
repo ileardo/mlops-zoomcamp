@@ -32,3 +32,7 @@ Repository for module 3: [github.com/ileardo/mlops-zoomcamp-mage](https://github
 * 4.2 Web-services: Deploying models with Flask and Docker
 
 * 4.3 Web-services: Getting the models from the model registry
+
+* 4.4 (Optional) Streaming: Deploying models with Kinesis and Lamba (**TODO**)
+
+* 4.5 Batch: Preparing a scoring script
