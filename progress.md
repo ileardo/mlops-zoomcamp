@@ -36,3 +36,9 @@ Repository for module 3: [github.com/ileardo/mlops-zoomcamp-mage](https://github
 * 4.4 (Optional) Streaming: Deploying models with Kinesis and Lamba (**TODO**)
 
 * 4.5 Batch: Preparing a scoring script
+
+## Module 5: Model Monitoring
+* 5.1 Intro to ML monitoring
+
+* 5.2 Environment setup
+
