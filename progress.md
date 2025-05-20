@@ -10,3 +10,5 @@
 * 1.4 Course overview
 
 * 1.5 MLOps maturity model ([link](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/mlops-maturity-model))
+
+* 1.6 Homework
