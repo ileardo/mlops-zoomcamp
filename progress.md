@@ -29,4 +29,4 @@
 
 * 2.7 MLflow: benefits, limitations and alternatives
 
-* 2.8 Homework: TODO 
+* 2.8 Homework
