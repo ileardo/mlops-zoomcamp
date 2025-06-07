@@ -30,3 +30,18 @@
 * 2.7 MLflow: benefits, limitations and alternatives
 
 * 2.8 Homework
+
+## Module 3: Orchestration and ML Pipelines
+
+* 3.1 Introduction to ML Pipelines
+
+* 3.2 Turning Notebook into Python Script
+
+* 3.3 [Prefect](https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/cohorts/2023/03-orchestration/prefect)
+    * 3.3.1 Introduction to Workflow Orchestration
+    * 3.3.2 Introduction to Prefect (...IN PROGRESS...)
+    * ...
+
+* 3.4 Using Orchestrator  
+    * 3.4.1 Choosing the Tool  
+    * ...
