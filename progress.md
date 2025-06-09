@@ -39,7 +39,7 @@
 
 * 3.3 [Prefect](https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/cohorts/2023/03-orchestration/prefect)
     * 3.3.1 Introduction to Workflow Orchestration
-    * 3.3.2 Introduction to Prefect (...IN PROGRESS...)
+    * 3.3.2 Introduction to Prefect
     * ...
 
 * 3.4 Using Orchestrator  
