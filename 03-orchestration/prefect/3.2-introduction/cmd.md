@@ -27,6 +27,13 @@ pkill -f prefect
 
 ## Deployment
 
+### Deploy from .yaml
+```bash
+prefect deploy --all
+```
+
+### Manual deploy
+
 1. Initialize Prefect project:
 
     ```bash
@@ -79,7 +86,6 @@ pkill -f prefect
         Flows > Deployment > Run
         ```
 
----
 
 ## Blocks
 
