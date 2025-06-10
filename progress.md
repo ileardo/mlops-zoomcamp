@@ -41,6 +41,7 @@
     * 3.3.1 Introduction to Workflow Orchestration
     * 3.3.2 Introduction to Prefect
     * 3.3.3 Prefect Workflow
+    * 3.3.4 Deploy Workflow
     * ...
 
 * 3.4 Using Orchestrator  
