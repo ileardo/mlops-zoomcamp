@@ -80,3 +80,39 @@ pkill -f prefect
         ```
 
 ---
+
+## Blocks
+
+Blocks info:
+```bash
+prefect block ls
+```
+```bash
+prefect block type ls  
+```
+
+Register block types:
+```bash
+prefect block register -m prefect_aws
+```
+
+---
+
+## AWS credentials
+
+```bash
+echo 'export AWS_ACCESS_KEY_ID="your-access-key-here"' >> ~/.bashrc
+```
+```bash
+echo 'export AWS_SECRET_ACCESS_KEY="your-secret-key-here"' >> ~/.bashrc
+```
+```bash
+echo 'export AWS_DEFAULT_REGION="your-region"' >> ~/.bashrc
+```
+
+# Ricarica il file
+```bash
+source ~/.bashrc
+```
+
+---
