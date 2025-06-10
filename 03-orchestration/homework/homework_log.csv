@@ -1,0 +1,23 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-06-10 16:23:34.674005+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,,Worker 'ProcessWorker d9acf756-a752-49fb-ac21-9bd84288d270' submitting flow run 'a104c656-ac97-469d-a218-4fb4f2f68a6d'
+2025-06-10 16:23:34.747085+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,,Opening process...
+2025-06-10 16:23:34.779700+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,,Completed submission of flow run 'a104c656-ac97-469d-a218-4fb4f2f68a6d'
+2025-06-10 16:23:36.394668+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,, > Running set_working_directory step...
+2025-06-10 16:23:38.442799+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,,Beginning flow run 'super-parakeet' for flow 'train-taxi-duration-homework'
+2025-06-10 16:23:38.447654+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,,====================================================================================================
+2025-06-10 16:23:38.451116+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,,Starting the training flow...
+2025-06-10 16:23:38.451744+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,,Prefect version: 3.4.5
+2025-06-10 16:23:39.201658+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,01975aa7-8925-730e-9b61-9b158584bdd2,"
+Read 3403766 rows from ./data/yellow_tripdata_2023-03.parquet"
+2025-06-10 16:23:41.153606+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,01975aa7-8925-730e-9b61-9b158584bdd2,"After filtering, 3316216 rows remain"
+2025-06-10 16:23:41.635765+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,01975aa7-8925-730e-9b61-9b158584bdd2,Finished in state Completed()
+2025-06-10 16:23:53.903695+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,01975aa7-9564-76a4-9e5c-9cf59bd0f3a6,Finished in state Completed()
+2025-06-10 16:24:00.917401+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,01975aa7-c54e-7799-8986-ded97c857114,"Intercept: 27.076611182921866, RMSE: 5.503655149952344"
+2025-06-10 16:24:00.941274+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,01975aa7-c54e-7799-8986-ded97c857114,Finished in state Completed()
+2025-06-10 16:24:00.942822+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,,MLflow run_id: 4259cc2cae114ab79cb2fee4ddc20a74
+2025-06-10 16:24:00.987250+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,01975aa7-e0d1-78b0-a5f8-387b28382c60,Total model size for run 4259cc2cae114ab79cb2fee4ddc20a74: 185429 bytes
+2025-06-10 16:24:00.990500+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,01975aa7-e0d1-78b0-a5f8-387b28382c60,Finished in state Completed()
+2025-06-10 16:24:00.992452+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,,Model size: 185429 bytes
+2025-06-10 16:24:01.051168+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,,====================================================================================================
+2025-06-10 16:24:01.321170+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,,Finished in state Completed()
+2025-06-10 16:24:01.997276+00:00,20,a104c656-ac97-469d-a218-4fb4f2f68a6d,,Process for flow run 'super-parakeet' exited cleanly.
