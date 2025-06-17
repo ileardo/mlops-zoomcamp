@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mlflow = "*"
+jupyter = "*"
+seaborn = "*"
+hyperopt = "*"
+xgboost = "==2.1.2"
+fastparquet = "*"
+boto3 = "*"
+pandas = "*"
+pyarrow = "*"
+numpy = "*"
+scikit-learn = "==1.5.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.13"

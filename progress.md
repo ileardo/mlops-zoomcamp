@@ -62,3 +62,5 @@
 * 4.4 Streaming: Deploying models with Kinesis and Lambda (... TODO ...)
 
 * 4.5 Batch: Preparing a scoring script
+
+* 4.6 Homework
