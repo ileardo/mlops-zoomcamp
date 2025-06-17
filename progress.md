@@ -50,3 +50,15 @@
     * ... TODO ...
 
 * 3.5 Homework
+
+## Module 4: Model Deployment
+
+* 4.1 Three ways of deploying a model
+
+* 4.2 Web-services: Deploying models with Flask and Docker
+
+* 4.3 Web-services: Getting the models from the model registry (MLflow)
+
+* 4.4 Streaming: Deploying models with Kinesis and Lambda (... TODO ...)
+
+* 4.5 Batch: Preparing a scoring script
