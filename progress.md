@@ -70,3 +70,5 @@
 * 5.1 Intro to ML monitoring
 
 * 5.2 Environment setup
+
+* 5.3 Prepare reference and model
