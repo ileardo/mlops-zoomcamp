@@ -16,3 +16,10 @@ For Cloud or Codespance environment:
 ```
 expose port (e.g. 3001 or 8080) to access services
 ```
+
+## Evidently
+
+UI
+```bash
+evidently ui
+```

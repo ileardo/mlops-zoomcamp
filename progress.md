@@ -72,3 +72,7 @@
 * 5.2 Environment setup
 
 * 5.3 Prepare reference and model
+
+* 5.4 Evidently metrics calculation
+
+* 5.5 Evidently Monitoring Dashboard
