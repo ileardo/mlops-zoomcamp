@@ -64,3 +64,9 @@
 * 4.5 Batch: Preparing a scoring script
 
 * 4.6 Homework
+
+## Module 5: Monitoring
+
+* 5.1 Intro to ML monitoring
+
+* 5.2 Environment setup
