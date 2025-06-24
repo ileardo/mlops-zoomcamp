@@ -76,3 +76,5 @@
 * 5.4 Evidently metrics calculation
 
 * 5.5 Evidently Monitoring Dashboard
+
+* 5.6 Dummy monitoring
