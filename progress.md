@@ -82,3 +82,5 @@
 * 5.7 Data quality monitoring
 
 * 5.8 Save Grafana Dashboard
+
+* 5.9 Debugging with test suites and reports
