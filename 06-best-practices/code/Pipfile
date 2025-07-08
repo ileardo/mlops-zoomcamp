@@ -12,6 +12,7 @@ pandas = "*"
 [dev-packages]
 requests = "*"
 pytest = "*"
+deepdiff = "*"
 
 [requires]
 python_version = "3.12"

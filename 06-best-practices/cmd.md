@@ -61,3 +61,12 @@ Test API:
 ```python
 python predict_api.py
 ```
+
+## CI/CD
+
+Check error code of previous command:
+```bash
+echo $?
+```
+
+Should be `0`
