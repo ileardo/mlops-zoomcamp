@@ -15,7 +15,7 @@ COPY ["Pipfile", "Pipfile.lock", "./"]
 RUN pipenv install --system --deploy  
 
 # copy the model and predict.py
-COPY ["predict.py", "taxi_ridge_reg.bin", "./"]  
+COPY ["predict.py", "model.py", "taxi_ridge_reg.bin", "./"]  
 
 # expose port 9696 in the container
 EXPOSE 9696  

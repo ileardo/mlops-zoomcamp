@@ -1,5 +1,7 @@
 # Unit test
 
+--- 
+
 ## Pipenv
 
 Install pipenv
@@ -24,7 +26,7 @@ Rename command line
 PS1="> "
 ```
 
-
+---
 
 ## Configure test via environment
 
@@ -45,3 +47,23 @@ Configure pytest
     testpaths = path/to/tests
     ```
 5. Reload window (`Developer: Reload Window`) and refresh Testing
+
+---
+
+## Docker
+
+Build docker:
+```bash
+docker build -t web-service-duration:v1 .
+```
+
+Run container:
+
+```bash
+docker run -it --rm -p 9696:9696 web-service-duration:v1
+```
+
+Test API:
+```python
+python predict_api.py
+```
