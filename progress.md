@@ -90,3 +90,5 @@
 ## Module 6: Best Practices
 
 * 6.1 Testing Python code with pytest
+
+* 6.2 Integration tests with docker-compose
