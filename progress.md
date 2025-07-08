@@ -86,3 +86,7 @@
 * 5.9 Debugging with test suites and reports
 
 * 5.10 Homework
+
+## Module 6: Best Practices
+
+* 6.1 Testing Python code with pytest
