@@ -1,7 +1,5 @@
 # Unit test
 
---- 
-
 ## Pipenv
 
 Install pipenv
@@ -26,8 +24,6 @@ Rename command line
 PS1="> "
 ```
 
----
-
 ## Configure test via environment
 
 Select python interpreter  
@@ -47,8 +43,6 @@ Configure pytest
     testpaths = path/to/tests
     ```
 5. Reload window (`Developer: Reload Window`) and refresh Testing
-
----
 
 ## Docker
 
