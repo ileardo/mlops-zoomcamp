@@ -70,3 +70,32 @@ echo $?
 ```
 
 Should be `0`
+
+
+## Linting and formatting
+
+### Linting
+
+Install:
+```bash
+pipenv install --dev pylint
+```
+
+Run:
+```bash
+pylint --recursive=y .
+```
+
+Disable pylint for entire codebase: `pyproject.toml`
+
+Disable pylint for specific class or specific file (put at beggining of the file): 
+```python
+# pylint: disable=lint-to-disable
+```
+
+### Formatting
+
+Install:
+```bash
+pipenv install --dev black
+```

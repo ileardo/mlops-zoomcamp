@@ -92,3 +92,7 @@
 * 6.1 Testing Python code with pytest
 
 * 6.2 Integration tests with docker-compose
+
+* 6.3 Testing cloud services with LocalStack
+
+* 6.4 Code quality: linting and formatting
