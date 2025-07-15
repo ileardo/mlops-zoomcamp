@@ -1,6 +1,7 @@
 import pickle
 
-class ModelService():
+
+class ModelService:
 
     def __init__(self, dv, model):
         self.dv = dv
@@ -10,7 +11,7 @@ class ModelService():
     def prepare_features(ride):
         features = {
             'PU_DO': f'{ride["PULocationID"]}_{ride["DOLocationID"]}',
-            'trip_distance': ride['trip_distance']
+            'trip_distance': ride['trip_distance'],
         }
         return features
 
@@ -18,6 +19,7 @@ class ModelService():
         X = self.dv.transform(features)
         preds = self.model.predict(X)
         return preds[0]
+
 
 def initialize_model_service(model_id):
     with open(f'{model_id}.bin', 'rb') as f_in:

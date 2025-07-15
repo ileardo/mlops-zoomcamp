@@ -97,5 +97,21 @@ Disable pylint for specific class or specific file (put at beggining of the file
 
 Install:
 ```bash
-pipenv install --dev black
+pipenv install --dev black isort
+```
+
+Show diff:
+```bash
+black --skip-string-normalization --diff . | less
+```
+```bash
+isort --diff . | less
+```
+
+Apply:
+```bash
+black .
+```
+```bash
+isort .
 ```
