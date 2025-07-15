@@ -96,3 +96,5 @@
 * 6.3 Testing cloud services with LocalStack
 
 * 6.4 Code quality: linting and formatting
+
+* 6.5 Git pre-commit hooks

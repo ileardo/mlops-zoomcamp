@@ -115,3 +115,40 @@ black .
 ```bash
 isort .
 ```
+
+## Pre-commit hooks
+
+Without makefiles:
+```
+isort .
+black .
+pylint --recursive=y .
+pytest tests/
+bash integration_test/run.sh
+```
+
+Install pre-commit:
+```bash
+pipenv install --dev pre-commit
+```
+
+Try pre-commit hook to specific folder `folder-name`:
+```bash
+cd folder-name
+git init
+```
+Remove `.git` after tries.
+
+Create sample-config file:
+```bash
+pre-commit sample-config > .pre-commit-config.yaml 
+```
+
+Create pre-commit hook:
+```bash
+clone repo
+pipenv install --dev
+pre-commit install
+```
+
+Add custom module (e.g. isort, black) to pre-commit: modify `.pre-commit-config.yaml`

@@ -3,13 +3,13 @@ from model import ModelService
 
 def test_prepare_features():
     ride = {
-        'PULocationID': 130,
-        'DOLocationID': 205,
-        'trip_distance': 3.66,
+        "PULocationID": 130,
+        "DOLocationID": 205,
+        "trip_distance": 3.66,
     }
     expected_features = {
-        'PU_DO': '130_205',
-        'trip_distance': 3.66,
+        "PU_DO": "130_205",
+        "trip_distance": 3.66,
     }
 
     features = ModelService.prepare_features(ride)
@@ -18,7 +18,7 @@ def test_prepare_features():
 
 class MockDV:
     def transform(self, features):
-        return [[features['PU_DO'], features['trip_distance']]]
+        return [[features["PU_DO"], features["trip_distance"]]]
 
 
 class MockModel:
@@ -33,8 +33,8 @@ def test_predict():
     service = ModelService(dv, model)
 
     features = {
-        'PU_DO': '130_205',
-        'trip_distance': 3.66,
+        "PU_DO": "130_205",
+        "trip_distance": 3.66,
     }
 
     prediction = service.predict(features)
