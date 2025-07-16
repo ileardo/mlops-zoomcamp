@@ -152,3 +152,19 @@ pre-commit install
 ```
 
 Add custom module (e.g. isort, black) to pre-commit: modify `.pre-commit-config.yaml`
+
+
+## Make
+
+Execute Makefile:
+```bash
+make
+```
+```bash
+make command-to-run
+```
+
+To prepare the project, run:
+```bash
+make setup
+```

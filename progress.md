@@ -59,7 +59,7 @@
 
 * 4.3 Web-services: Getting the models from the model registry (MLflow)
 
-* 4.4 Streaming: Deploying models with Kinesis and Lambda (... TODO ...)
+* 4.4 Streaming: Deploying models with Kinesis and Lambda
 
 * 4.5 Batch: Preparing a scoring script
 
@@ -98,3 +98,5 @@
 * 6.4 Code quality: linting and formatting
 
 * 6.5 Git pre-commit hooks
+
+* 6.6 Makefiles and make
