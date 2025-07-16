@@ -1,24 +1,25 @@
 version: '3.9'
 
 volumes: 
-  grafana_data: {}
+  grafana_data: {}  # store Grafana data persistently
+  prefect_data: {}  # store Prefect data persistently
 
 networks:
-  front-tier:
-  back-tier:
+  front-tier:  # to access via web browser
+  back-tier:  # for internal communication between services
 
 services:
   db:
     image: postgres
     restart: always
     environment:
-      POSTGRES_PASSWORD: example
+      POSTGRES_PASSWORD: password
     ports:
       - "5432:5432"
     networks:
       - back-tier
 
-  adminer:
+  adminer:  # manage databases via a web interface
     image: adminer
     restart: always
     ports:
@@ -40,3 +41,20 @@ services:
       - back-tier
       - front-tier
     restart: always
+
+  prefect-server:
+    image: prefecthq/prefect:3-latest
+    restart: always
+    volumes:
+      - prefect_data:/root/.prefect
+    environment:
+      - PREFECT_UI_URL=http://127.0.0.1:4200/ui
+      - PREFECT_API_URL=http://127.0.0.1:4200/api
+      - PREFECT_SERVER_API_HOST=0.0.0.0
+      - PREFECT_API_DATABASE_CONNECTION_URL=sqlite+aiosqlite:////root/.prefect/prefect.db
+    ports:
+      - "4200:4200"
+    networks:
+      - back-tier
+      - front-tier
+    command: prefect server start --host 0.0.0.0
